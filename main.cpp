@@ -38,7 +38,7 @@ public:
         return move;
     }
     //method to return "human" as player name
-    std::string GetName() { return "Human"; }
+    string GetName() { return "Human"; }
 };
 
 class ComputerPlayer : public Player {
@@ -58,7 +58,7 @@ public:
         }
     }
     // method to return "computer" as player name
-    std::string GetName() { return "Computer"; }
+    string GetName() { return "Computer"; }
 };
 
 // method to display scoreboard
